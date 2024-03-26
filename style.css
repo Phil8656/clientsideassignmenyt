@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+head{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: goldenrod;
+    padding: 10px;
+    text-align: center;
+    color: #ccc;
+}
+nav a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase ;
+}
+footer{
+    width: 100%;
+    height:50px;
+    position: 100%;
+    background-color: black;
+    text-transform: capitalize;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: center;
+    text-justify: auto;
+    color: #fff;
+}
+#img {
+    width: 125px;
+    height: 100px;
+    float: left; /* To float the image to the left */
+    margin-right: 10px; /* Optional: Add margin to create space between the image and other content */
+}
+#rr{
+    width: auto;
+    height: 50%;
+}
+#rt{
+    padding-top: 150px;
+    padding: 0%;
+    width: 10px;
+    height: 10px;
+}
+#phil{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 25px;
+    text-size-adjust: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.back{
+        background-image: url('pexels-ines-martin-3144978.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover; /* Cover the entire container */
+        width: 100%;
+        background-position: center; /* Center the image */
+        min-height: 100vh;
+        flex: 1;
+}
+/* Additional styling for the form */
+form {
+    margin: 20px auto;
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+input[type="submit"] {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    color: goldenrod;
+    background-color: black; /* Darker shade of goldenrod */
+}
+/* CSS for the registration page */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+/* Additional styling for responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}

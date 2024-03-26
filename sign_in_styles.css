@@ -1,0 +1,50 @@
+/* Sign-in page styles */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-buttons {
+    margin-top: 30px;
+}
+
+.google-btn,
+.facebook-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google-btn {
+    background-color: #DB4437; /* Google red */
+}
+
+.facebook-btn {
+    background-color: #3B5998; /* Facebook blue */
+}
+
+.google-btn:hover,
+.facebook-btn:hover {
+    opacity: 0.8;
+}
+
+/* Additional styling for responsiveness */
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}

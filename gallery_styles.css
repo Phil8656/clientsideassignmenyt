@@ -1,0 +1,38 @@
+/* Smart Gallery styles */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid layout */
+    grid-gap: 20px; /* Spacing between grid items */
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1); /* Scale up on hover */
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px; /* Rounded corners at the bottom */
+}
